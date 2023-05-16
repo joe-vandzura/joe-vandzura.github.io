@@ -1,0 +1,25 @@
+#headshot-photo {
+    border-radius: 50%;
+}
+
+.portfolio-item.first-item {
+    border: lightgray solid 3px;
+}
+
+.portfolio-item.second-item {
+    border-right: lightgray solid 3px;
+    border-top: lightgray solid 3px;
+    border-bottom: lightgray solid 3px;
+}
+
+.portfolio-item.third-item {
+    border-right: lightgray solid 3px;
+    border-top: lightgray solid 3px;
+    border-bottom: lightgray solid 3px;
+}
+
+.photo-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
