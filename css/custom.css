@@ -23,3 +23,57 @@
     height: 150px;
     border-radius: 50%;
 }
+
+.tech-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: white;
+}
+
+#contact-footer {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-question {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#contact-anchor {
+    padding: 10px;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 10%;
+    width: 150px;
+    align-self: center;
+}
+
+#contact-anchor:hover {
+    color: #2b669a;
+    background-color: white;
+    text-decoration: none;
+}
+
+#contact-anchor:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-anchor:active {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    #footer-icons {
+        margin-top: 50px;
+    }
+}
