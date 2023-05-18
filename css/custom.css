@@ -79,5 +79,27 @@
 }
 
 .image {
-    height: 128px;
+    height: 300px;
+}
+
+@media (max-width: 767px) {
+    .section-header {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-header {
+        padding-bottom: 30px;
+    }
+}
+
+.projects-holder .text {
+    height: 200px;
+}
+
+.font-medium {
+    font-size: medium;
 }

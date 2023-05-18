@@ -51,7 +51,7 @@ p {
 }
 
 .first-section .text-content {
-	text-align: right;
+	text-align: center;
 	color: #fff;
 }
 
@@ -63,10 +63,10 @@ p {
 }
 
 .first-section .text-content .line-dec {
-	width: 60px;
+	width: 550px;
 	height: 3px;
 	background-color: #fff;
-	margin: 25px 0px 25px auto;
+	margin: 25px auto 25px auto;
 }
 
 .first-section .text-content span {
