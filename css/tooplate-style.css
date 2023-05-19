@@ -82,7 +82,7 @@ p {
 =======================*/
 
 .second-section {
-	padding: 100px 0px;
+	padding: 30px 0px;
 }
 
 .second-section .service-item {
@@ -111,7 +111,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px;
+	padding: 15% 0 15% 0;
 }
 
 .third-section .left-image img {
@@ -125,9 +125,8 @@ p {
 }
 
 .third-section em {
+	font-weight: bold;
 	font-size: 18px;
-	font-style: normal;
-	font-weight: 300;
 }
 
 .third-section h4 {
@@ -140,6 +139,7 @@ p {
 }
 
 .third-section p {
+	font-size: large;
 	color: #fff;
 	margin-top: 15px;
 }
@@ -154,7 +154,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 16% 0px;
+	padding: 12% 0 0 0;
 }
 
 .fourth-section .col-md-3 {
