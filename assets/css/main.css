@@ -1761,7 +1761,7 @@ input, select, textarea {
 	header p {
 		color: #aaa;
 		position: relative;
-		margin: 0 0 1.6875em 0;
+		margin: 0 0 1em 0;
 	}
 
 	header h2 + p {
@@ -2322,6 +2322,15 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+
+			.about-div {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.small-img {
+				padding-bottom: 1em;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3363,4 +3372,21 @@ input, select, textarea {
 
 .about-text-div {
 	margin-left: 1em;
+}
+
+#resume-btn {
+	background-color: rgb(238, 205, 0);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-size: large;
+	margin-bottom: 1em;
+	border: 1px solid transparent;
+}
+
+#resume-btn:hover {
+	background-color: rgb(255, 225, 43);
+	border: 1px solid rgb(238, 205, 0);
 }
