@@ -3322,3 +3322,35 @@ input, select, textarea {
 	color: #07baff;
 	text-decoration: underline;
 }
+
+.small-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.centered-icon {
+	position: relative;
+	padding-left: 20px; /* Adjust this value to move the icon horizontally */
+	line-height: 40px; /* Adjust this value to move the icon vertically */
+
+	/* Add your existing icon styles here */
+	/* These are just example styles */
+	font-size: 24px; /* Adjust the font size as needed */
+	color: #333; /* Adjust the color as needed */
+}
+
+.tech-icon {
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+	min-width: 50px;
+	min-height: 50px;;
+	background-color: #07baff;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-top: 8px;
+}
