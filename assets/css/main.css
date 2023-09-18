@@ -3354,3 +3354,13 @@ input, select, textarea {
 	transform: translateY(-50%);
 	padding-top: 8px;
 }
+
+.about-div {
+	margin-bottom: 2em;
+	display: flex;
+	align-items: center;
+}
+
+.about-text-div {
+	margin-left: 1em;
+}
