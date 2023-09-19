@@ -3375,7 +3375,7 @@ input, select, textarea {
 }
 
 #resume-btn {
-	background-color: rgb(238, 205, 0);
+	background-color: #0745ff;
 	color: white;
 	padding: 10px 20px;
 	border-radius: 10px;
@@ -3387,6 +3387,10 @@ input, select, textarea {
 }
 
 #resume-btn:hover {
-	background-color: rgb(255, 225, 43);
-	border: 1px solid rgb(238, 205, 0);
+	background-color: #07baff;
+	border: 1px solid rgb(255, 225, 43);
+}
+
+#one-header {
+	color: #0a7eaa;
 }
