@@ -3330,6 +3330,15 @@ input, select, textarea {
 .link {
 	color: #07baff;
 	text-decoration: underline;
+	padding: 5px;
+}
+
+.link:hover {
+	opacity: 60%;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+
 }
 
 .small-img {
@@ -3375,7 +3384,7 @@ input, select, textarea {
 }
 
 #resume-btn {
-	background-color: #0745ff;
+	background-color: #26d1fb;
 	color: white;
 	padding: 10px 20px;
 	border-radius: 10px;
